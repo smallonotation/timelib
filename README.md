@@ -10,7 +10,7 @@ input_date(&day, &month, &year);
 isLeapYear(2000);
 #output: true
 day_of_the_year(21, 5, 2020);
-#output: 	142
+#output: 142
 ```
 
 ## License
