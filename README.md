@@ -10,8 +10,10 @@ Timelib is a c library, providing time functions for date handling.
 struct date date;
 input_date(&date);
 #input
+
 isLeapYear(2000);
 #output: true
+
 date.day = 25;
 date.month = 5;
 date.year = 2020;
