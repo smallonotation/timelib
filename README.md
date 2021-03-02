@@ -5,11 +5,17 @@ Timelib is a c library, providing time functions for date handling.
 ```c
 #include "time.h"
 
-input_date(&day, &month, &year);
+...
+
+struct date date;
+input_date(&date);
 #input
 isLeapYear(2000);
 #output: true
-day_of_the_year(21, 5, 2020);
+date.day = 25;
+date.month = 5;
+date.year = 2020;
+day_of_the_year(date);
 #output: 142
 ```
 
