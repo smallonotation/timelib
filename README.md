@@ -1,5 +1,6 @@
 # timelib
 Timelib is a c library, providing time functions for date handling. 
+@author Jesse Kroeske, 08.03.2021
 
 ## Usage
 ```c
